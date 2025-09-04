@@ -5,19 +5,16 @@ Algoritmo programacionmodulartemanuevo4
 FinAlgoritmo
 Funcion Estudiante<-esEstudiante
 	Definir Estudiante como logico
-	Escribir "¿Es usted estudiante v/f?"
+	Escribir "¿Es usted estudiante verdadero/falso?"
 	Leer dato_esEstudiante 
 FinFuncion
-si estudiante =Verdadero Entonces
-	
-FinSi
 Funcion  mensaje<-crear_saludo(dato_esEstudiante) 
 
 FinFuncion
-si dato_esEstudiante=v" Entonces
+si dato_esEstudiante=v Entonces
 	Escribir " si es estudiante"
 SiNo
 	Escribir "No es estudiante" 
 FinSi 
-FinFuncion
+FinFuncion 
 	 

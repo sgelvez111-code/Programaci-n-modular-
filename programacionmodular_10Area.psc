@@ -1,16 +1,18 @@
 Algoritmo programacionmodular_10Area 
-	Definir b, h, Resultado Como Real 
+	Definir bas, alt, Resultado Como Real 
 	
-	Escribir "ingrese la base del rectangulo";leer b
-	Escribir "ingrese la altura del rectangulo";leer h
+	Escribir "ingresar la base del rectangulo";leer bas
+	Escribir "ingresar la altura del rectangulo";leer alt
 	
-	resultado<- calcularArea (b,h)
+	resultado<- calcularArea (bas,alt)
 	mostrarResultado(Resultado) 
+	
 FinAlgoritmo
 
 Funcion area<-calcularArea	(base, altura) 
 	Definir area como real 
 	area<-base*altura 
+	
 FinFuncion
 
 SubProceso mostrarResultado (valor) 

@@ -1,12 +1,11 @@
 Algoritmo programacionmodularsaludo1
+	
 	dato_nombre<-tomar_nombre
 	dato_apellido<-tomar_apellido
 	dato_mensaje<-crear_saludo(dato_nombre, dato_apellido)
 	imprimir_saludo(dato_mensaje) 
 	
 FinAlgoritmo
-
-
 
 funcion nombre_cliente<-tomar_nombre 
 	Definir nombre_cliente como cadena

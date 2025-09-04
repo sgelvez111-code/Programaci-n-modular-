@@ -5,7 +5,9 @@ Algoritmo programacionmodular_8valoreIVA
     Escribir "Ingrese la cantidad: " ; Leer cant
 	
     subtotal <- calcularSubtotal(precio, cant)
+	
     valorIVA <- calcularIVA(subtotal)
+	
     totalFinal <- calcularTotalFinal(subtotal, valorIVA)
 	
     mostrarResultado(subtotal, valorIVA, totalFinal)
@@ -22,6 +24,7 @@ Funcion iva <- calcularIVA(base)
     Definir iva Como Real
     iva <- base * 0.19
 FinFuncion
+
 
 
 Funcion total <- calcularTotalFinal(base, iva)
